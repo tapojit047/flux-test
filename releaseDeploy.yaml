@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: tapojit
+  namespace: default
+spec:
+  interval: 1m
+  chart:
+    spec:
+      chart: charts/opscenter-features
+      sourceRef:
+        kind: GitRepository
+        name: myrepo
+        namespace: default
+      interval: 1m
