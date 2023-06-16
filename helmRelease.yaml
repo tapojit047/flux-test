@@ -8,6 +8,7 @@ spec:
   chart:
     spec:
       chart: podinfo
+      version: '4.0.1'
       sourceRef:
         kind: GitRepository
         name: podinfo
