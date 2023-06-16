@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: crossplane
-  namespace: default
+  namespace: crossplane-system
 spec:
   interval: 1m
   chart:
@@ -10,6 +10,6 @@ spec:
       chart: crossplane
       sourceRef:
         kind: HelmRepository
-        name: crossplane
+        name: crossplane-system
         namespace: default
       interval: 1m
