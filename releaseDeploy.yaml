@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: opscenter-features
+      chart: charts/opscenter-features
       sourceRef:
         kind: GitRepository
         name: myrepo
