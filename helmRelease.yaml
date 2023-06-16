@@ -11,7 +11,7 @@ spec:
       sourceRef:
         kind: GitRepository
         name: podinfo
-        namespace: flux-system
+        namespace: default
       interval: 1m
   values:
     replicaCount: 2
