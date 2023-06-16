@@ -10,6 +10,6 @@ spec:
       chart: crossplane
       sourceRef:
         kind: HelmRepository
-        name: crossplane-system
-        namespace: default
+        name: crossplane
+        namespace: crossplane-system
       interval: 1m
