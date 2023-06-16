@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 1m
-  url: https://github.com/tapojit047/test-helm-repo/tree/master/charts
+  url: https://github.com/tapojit047/test-helm-repo
   ref:
     branch: master
   ignore: |
