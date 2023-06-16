@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: HelmRepository
+kind: GitRepository
 metadata:
   name: crossplane
   namespace: default
 spec:
-  url: https://charts.crossplane.io/stable
+  url: https://github.com/crossplane/crossplane
   interval: 1m
