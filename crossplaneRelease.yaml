@@ -7,9 +7,9 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: cluster/charts
+      chart: crossplane
       sourceRef:
-        kind: GitRepository
+        kind: HelmRepository
         name: crossplane
         namespace: default
       interval: 1m
