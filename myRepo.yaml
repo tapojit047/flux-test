@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: myrepo
+  namespace: default
+spec:
+  interval: 1m
+  url: https://github.com/tapojit047/test-helm-repo/tree/main
+  ref:
+    branch: master
+  ignore: |
