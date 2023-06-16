@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: podinfo
+      chart: charts/podinfo
       version: '4.0.1'
       sourceRef:
         kind: GitRepository
