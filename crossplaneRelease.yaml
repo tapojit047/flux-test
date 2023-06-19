@@ -11,5 +11,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: crossplane
-        namespace: crossplane-system
+        namespace: cp-system
       interval: 1m
